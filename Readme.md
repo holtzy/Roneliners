@@ -13,11 +13,13 @@ Here is a set of R one-liners that I use on a daily basis for my data analysis. 
 ## Matrix
 [[back to top](#matrix)]
 
-Use rownames as a column  
+Use rownames as a column:
+
     matrix %>% as.data.frame %>% rownames_to_column("new_variable_name")
 
-Matrix to long data frame  
-`matrix %>% as.data.frame() %>% rownames_to_column("var1") %>% gather(var2, value, -1)`
+Matrix to long data frame
+
+    matrix %>% as.data.frame() %>% rownames_to_column("var1") %>% gather(var2, value, -1)
 
 
 
@@ -25,20 +27,6 @@ Matrix to long data frame
 [[back to top](#reordering)]
 
 
-
-Extract fields 2, 4, and 5 from file.txt:
-
-    awk '{print $2,$4,$5}' input.txt
-
-
-Print each line where the 5th field is equal to ‘abc123’:
-
-    awk '$5 == "abc123"' file.txt
-
-
-Print each line where the 5th field is *not* equal to ‘abc123’:
-
-    awk '$5 != "abc123"' file.txt
 
 
 
