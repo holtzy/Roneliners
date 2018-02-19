@@ -62,4 +62,44 @@ Other solution with `dplyr`:
 
 
 
+## R markdown
+[[back to top](#rmd)]
+
+See the [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) for basic tips.
+
+Horizontal line to show a separation:
+
+    ***
+    
+Center an image
+
+    <center>
+    ![caption](/path/to/img)
+    </center>
+    
+Change background color of a specific part:
+ 
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Add the text you want
+    </div>
+    
+Use buttons for secondary titles:
+
+    # Title 1  {.tabset .tabset-fade .tabset-pills}
+    ## Title2
+    
+Show a data frame using the DT library:
+
+    datatable(data, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T) )
+
+Add some white space to give some air in the document:
+
+    <br>
+    
+
+
+
 
