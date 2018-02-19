@@ -7,6 +7,13 @@ Here is a set of R one-liners that I use on a daily basis for my data analysis. 
 
 - [Working with matrix](#matrix)
 - [Reordering](#reordering)
+- [Colors](#colors)
+- [Shiny](#shiny)
+- [Tidyr](#tidyr)
+- [Dplyr](#dplyr)
+- [Read a file](#read)
+- [R markdown](#rmd)
+
 
 
 
