@@ -1,6 +1,6 @@
 # R one-liners for daily analysis
 
-Here is a set of R one-liners that I use on a daily basis for my data analysis. See also the Stephen Turner's [bioinformatics one-liners](https://github.com/stephenturner/oneliners) that gave me the inspiration.
+Here is a set of R one-liners that I use on a daily basis for my data analysis. See also the Stephen Turner's [bioinformatics one-liners](https://github.com/stephenturner/oneliners) that gave me the inspiration. Note that the vast majority of the examples need the [tidyverse library](https://www.tidyverse.org) to be loaded. `library(tidyverse)`.
 
 
 ## Contents
@@ -29,6 +29,10 @@ Diagonal to NA
 
     diag(matrix) <- NA
     
+
+
+
+
 
 
 
