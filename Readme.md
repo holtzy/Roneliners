@@ -101,5 +101,16 @@ Add some white space to give some air in the document:
     
 
 
+## Format a number
+
+A pvalue
+
+A huge number
+
+    scales::comma(n)
+
+On the axis of a ggplot
+    
+    scale_y_comma
 
 
