@@ -62,6 +62,47 @@ Other solution with `dplyr`:
 
 
 
+
+## Colors
+[[back to top](#colors)]
+
+
+
+
+
+
+## Shiny
+[[back to top](#shiny)]
+
+
+
+
+
+
+## Tidyr
+[[back to top](#tidyr)]
+
+
+
+
+
+
+
+## Dplyr
+[[back to top](#dplyr)]
+
+Rename columns:
+
+    data %>% rename(new_name=old_name, other_new_name=other_old_name)
+
+
+
+
+
+
+
+
+
 ## R markdown
 [[back to top](#rmd)]
 
