@@ -95,10 +95,13 @@ Rename columns:
 
     data %>% rename(new_name=old_name, other_new_name=other_old_name)
 
+Rename X by Y in a columns:
 
+    data %>% mutate( new = recode(old, X="Y") )
 
+Replace by x in column 1 if column 2 as a certain value:
 
-
+    mtcars %>% mutate(mpg=replace(mpg, cyl==4, NA))
 
 
 
